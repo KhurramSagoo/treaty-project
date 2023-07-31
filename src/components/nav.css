@@ -1,0 +1,5 @@
+.btn{
+    backgroundColor: '#1E40AF', 
+    color:'white', 
+    fontWeight: 'bold', padding: '0.5rem 1rem', borderRadius: '0.25rem'
+}

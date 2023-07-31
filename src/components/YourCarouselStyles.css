@@ -1,0 +1,56 @@
+.carousel-container {
+    width: 100%; 
+    height: auto;
+    margin: 0 auto;
+  }
+  .text{
+    position: absolute;
+  z-index: 5;
+  color: white;
+  text-align: center;
+  text-justify: inter-word;
+  font-size: 2rem;
+  font-weight: 300;
+  top: 30px;
+  /* width: 100%; */
+  }
+   
+  .slick-slide img {
+    width: 100%;
+  }
+  
+  /* .carousel-caption {
+    position: absolute;
+    z-index:9999;
+    top: 20px;
+    left: 150px; 
+    color: #000000;
+    font-size: 24px;
+    font-weight:300;
+    padding: 10px;
+  } */
+  /* Customize the dots container */
+.custom-dots {
+  position: absolute;
+  bottom: 20px; /* Adjust as needed */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Customize individual dot style */
+.custom-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid white;
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  margin: 0 5px; 
+  cursor: pointer;
+}
+
+/* Active dot style */
+.slick-active .custom-dot {
+  background-color: white; /* Adjust active dot color */
+}
