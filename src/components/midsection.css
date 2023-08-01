@@ -48,3 +48,17 @@
 .sub-item{
     padding: 12px 0;
 }
+
+@media screen and (max-width:768px) {
+    .mid-container{
+        flex-direction: column;
+        padding: 15px;
+        margin: 10px;
+    }
+    .item-left{
+        width:100%;
+    }
+    .item-right{
+        width: 100%;
+    }
+}
