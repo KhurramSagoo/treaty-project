@@ -7,6 +7,7 @@ import photo3 from './assets/photo3.png';
 import YourCarousel from './components/YourCarousel.jsx';
 import Icons from './components/Icons.jsx';
 import MidSection from './components/MidSection.jsx';
+import Contact from './components/Contact.jsx';
 function App() {
   const data = [
     {
@@ -30,10 +31,11 @@ function App() {
   ];
   return (
    <>
-<NavBar />
-<YourCarousel data={data}/>
-<Icons />
-<MidSection />
+{/* <NavBar /> */}
+{/* <YourCarousel data={data}/> */}
+{/* <Icons /> */}
+{/* <MidSection /> */}
+<Contact />
    </>
   );
 }
