@@ -31,10 +31,10 @@ function App() {
   ];
   return (
    <>
-{/* <NavBar /> */}
-{/* <YourCarousel data={data}/> */}
-{/* <Icons /> */}
-{/* <MidSection /> */}
+<NavBar />
+<YourCarousel data={data}/>
+<Icons />
+<MidSection />
 <Contact />
    </>
   );
