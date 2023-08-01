@@ -6,6 +6,7 @@ import photo2 from './assets/photo2.png';
 import photo3 from './assets/photo3.png';
 import YourCarousel from './components/YourCarousel.jsx';
 import Icons from './components/Icons.jsx';
+import MidSection from './components/MidSection.jsx';
 function App() {
   const data = [
     {
@@ -32,6 +33,7 @@ function App() {
 <NavBar />
 <YourCarousel data={data}/>
 <Icons />
+<MidSection />
    </>
   );
 }
