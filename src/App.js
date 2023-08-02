@@ -35,8 +35,7 @@ function App() {
 <YourCarousel data={data}/>
 <Icons />
 <MidSection />
-<Contact />
-.   </>
+<Contact /> </>
   );
 }
 
