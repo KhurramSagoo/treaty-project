@@ -8,6 +8,7 @@ import YourCarousel from './components/YourCarousel.jsx';
 import Icons from './components/Icons.jsx';
 import MidSection from './components/MidSection.jsx';
 import Contact from './components/Contact.jsx';
+import Footer from './components/Footer.jsx';
 function App() {
   const data = [
     {
@@ -35,7 +36,10 @@ function App() {
 <YourCarousel data={data}/>
 <Icons />
 <MidSection />
-<Contact /> </>
+<Contact /> 
+<Footer />
+</>
+
   );
 }
 
